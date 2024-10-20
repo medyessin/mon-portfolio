@@ -1,0 +1,53 @@
+
+* {
+    margin: 6px;
+    padding: 1px;
+}
+html {
+    background-color: rgb(241, 237, 224); /* Couleur de background */
+}
+
+header ul li {
+    display: inline-block; /* afficher les element horizontalement */
+}
+header {
+    display: flex;
+    align-items: end; /* Aligne les éléments en bas */
+    justify-content: right; /* Positionne les éléments à droite */
+   
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Ombre de 10px autour de header */
+}
+header ul li a {
+    color: brown; /* Couleur brune pour les liens */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* type de Police  pour les liens */
+}
+section img {
+    width: 385px; /* Largeur de l'image */
+    float: right; /* Flotte l'image à droite du texte */
+    left: 1050px; /* Décalage vers la gauche de 1050px */
+    border-radius: 33%; /* Arrondi des bords de l'image à 33% */
+}
+h1 {
+    font-size: 360%; /* Taille du texte des h1  */
+    font-style: initial; /* Style de police */
+}
+main {
+    font-size: 315%; /* Taille du texte de 315% */
+    font-style: italic; /* Style italique */
+    color: brown; /* couleur de texte */
+}
+h3 {
+    font-size: 235%; /* Taille du texte des h3 à 235% */
+    margin-top: 2%; /* Marge en haut de 2% */
+    padding-left: 3.5%;
+}
+form a {
+    color: black; /* Couleur du texte noir pour les liens */
+    font-size: 130%; /* Taille du texte */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Police classique */
+    background-color: azure; /* Couleur de fond */
+    border-radius: 14%; /* Arrondit les coins des liens à 14% */
+    padding: 8px 25px; /* Padding interne de 8px en haut/bas et 25px à gauche/droite */
+    margin: 450px; /* marge de 450px */
+    border: 2px solid black; /* Bordure noire de 2px */
+}

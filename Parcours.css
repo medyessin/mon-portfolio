@@ -1,0 +1,45 @@
+* {
+    margin: 6px;
+    padding: 1px;
+}
+html {
+    background-color: rgb(241, 237, 224); /* Couleur de fond */
+}
+
+header ul li {
+    display: inline-block; /* Affiche les éléments de la liste en ligne */
+}
+header {
+    display: flex; 
+    align-items: end; /* Aligne les éléments en bas */
+    justify-content: right; /* Positionne les éléments à droite */
+ 
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+header ul li a {
+    color: brown; /* Couleur brune des liens */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*type de Police */
+}
+section h1 {
+    color: darkslategrey; /* Couleur du texte  */
+    font-size: 220%; /* Taille du texte à 220% */
+    font-family: Arial, Helvetica, sans-serif; /*type Police*/
+}
+h2 {
+    font-size: 190%; /* Taille du texte à 190% */
+    padding-left: 5%; /* espace à gauche de 5% */
+}
+h3 {
+    font-size: 150%; /* Taille du texte à 150% */
+    padding-left: 12%; /* espace à gauche de 12% */
+}
+form a {
+    color: black; /* Couleur du texte noir pour les liens */
+    font-size: 130%; /* Taille de la police à 130% */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: azure; /* Couleur de fond */
+    border-radius: 14%; /* Arrondit les coins du lien */
+    padding: 8px 25px; /* espace interne de 8px en haut/bas et 25px à gauche/droite */
+    margin: 610px; /* Grande marge de 610px */
+    border: 2px solid black; /* Bordure noire de 2px autour du lien */
+}

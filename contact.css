@@ -1,0 +1,65 @@
+
+* {
+    margin: 6px; 
+    padding: 1px;
+}
+html {
+    background-color: rgb(241, 237, 224); /* Couleur pour la page */
+}
+header ul {
+    list-style: none;
+}
+
+
+header ul li {
+    display: inline-block;/* afficher les element horizontalement */
+}
+
+/* aligner les éléments à la fin et à droite */
+header {
+    display: flex;
+    align-items: end; /* Aligne les éléments au bas de l'en-tête */
+    justify-content: right; /* Positionne les éléments à droite */
+    box-shadow: 0 0 10px rgb(0, 0, 0); /* Ajoute une ombre autour de l'en-tête */
+}
+header ul li a {
+    color: brown; /* Couleur des liens  */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* type de police pour les liens */
+}
+section h1 {
+    font-size: 400%; /* Taille de police 400% */
+    font-style: initial; /* Style de police */
+    color: darkslategrey; /* Couleur du h1 */
+}
+h2 {
+    font-size: 280%; /* Taille de police 280% */
+    border: 5px solid #18021b; /* Bordure solide de 5px, couleuré*/
+    border-radius: 8px; /* Bords arrondis de 8px */
+    padding: 12px; /* Espace interne de 12px */
+    width: 720px; /* Largeur de 720px */
+    background-color: #f0f0f0; /* Couleur du fond */
+    margin-left: 150px; /* Espace à gauche de 150px */
+    margin-top: 70px; /* Espace en haut de 70px */
+}
+h1 {
+    font-size: 200%; /* Taille de police 200% */
+    margin: 2%; /* Marges autour de 2% */
+}
+input {
+    border: 5px solid #18021b; /* Bordure solide de 5px, couleuré */
+    border-radius: 8px; /* Bords arrondis */
+    padding: 12px; /* Espace interne */
+    width: 380px; /* Largeur de 380px */
+    background-color: #f0f0f0; /* Couleur du fond */
+    margin-left: 90px; /* Espace à gauche de 90px */
+    margin-top: 40px; /* Espace en haut de 40px */
+}
+button {
+    border: 3.5px solid #162e43b8; /* Bordure de 3.5px, couleur*/
+    border-radius: 5.5px; /* Bords arrondis de 5.5px */
+    padding: 10px; /* Espace interne */
+    width: 105px; /* Largeur de 105px */
+    background-color: #f0f0f0e0; /* Couleur de fond*/
+    margin-left: 35px; /* Espace à gauche de 35px */
+    margin-top: 13px; /* Espace en haut de 13px */
+}
